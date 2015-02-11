@@ -10,9 +10,9 @@ public class E01Quiniela {
 		//una quiniela primitiva controlando que no se repita ninguno de ellos.
 		
 		//Repetir hasta que teng 6 números
-			//Generar número [1-49]
-				//Mirar si está
-					//Si está lo descarto, si no lo guardo
+		//Generar número [1-49]
+		//Mirar si está
+		//Si está lo descarto, si no lo guardo
 		
 		Scanner teclado = new Scanner(System.in);
 		
