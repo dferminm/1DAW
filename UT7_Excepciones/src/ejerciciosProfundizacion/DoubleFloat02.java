@@ -22,9 +22,9 @@ public class DoubleFloat02 {
 		while(!valido) {
 		try {
 			numeroFloat();
+			valido = true;
 		}
 		catch (InputMismatchException imex) {
-			valido = true;
 		}
 		}
 	}

@@ -27,6 +27,9 @@ public class DivisionEnteros01 {
 				esNumero = true;
 			} catch (InputMismatchException imex) {
 				System.out.println("Eso no es un número.");
+				imex.printStackTrace();
+				System.out.println(imex.toString());
+				System.out.println(imex.getMessage());
 				teclado.next();
 			} catch (ArithmeticException aex) {
 				System.out.println("No se puede dividir un número entre 0.");
