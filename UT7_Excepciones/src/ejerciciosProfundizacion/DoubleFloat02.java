@@ -19,14 +19,14 @@ public class DoubleFloat02 {
 
 		boolean valido = false;
 		
-		do {
+		while(!valido) {
 		try {
 			numeroFloat();
-			valido = true;
 		}
 		catch (InputMismatchException imex) {
+			valido = true;
 		}
-		}while(!valido);
+		}
 	}
 
 	public static float numeroFloat () {
