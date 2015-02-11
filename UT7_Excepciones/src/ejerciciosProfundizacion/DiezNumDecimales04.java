@@ -36,7 +36,8 @@ public class DiezNumDecimales04 {
 			}
 		}
 		
-		System.out.println("El número más alto de los insertados es el " + masAlto);
+		System.out.println("El número más alto de los insertados es el " + masAlto + ".");
+		System.out.println("Se ha producido el error InputMismatchException " + numeroErrores + " veces.");
 		
 	}
 
