@@ -16,13 +16,14 @@ public class DiezNumDecimales04 {
 
 		Scanner teclado = new Scanner(System.in);
 		
-		int n, masAlto = 0, numeroErrores = 0;
+		double n, masAlto = 0; 
+		int numeroErrores = 0;
 		
 		for(int i = 1;i <= 10;i++) {
 			
 			try {
 			System.out.println("Introduce número: ");
-			n = teclado.nextInt();
+			n = teclado.nextDouble();
 			if(n > masAlto) {
 				masAlto = n;
 			}
