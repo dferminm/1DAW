@@ -17,16 +17,19 @@ public class DoubleFloat02 {
 		// El main será el que se encargue de llamar de nuevo a este método si se insertan letras. 
 		// De la misma forma se hará a la hora de pedir un dato de tipo double.
 
-		boolean valido = false;
 		
-		while(!valido) {
-		try {
-			numeroFloat();
-			valido = true;
+		//Incompleto
+		
+		
+		boolean fallo = false;
+		
+		do {
+		if(numeroDouble() > 0 && numeroDouble() < 10000) {
+			fallo = false;
+		}else if (numeroDouble() < 0){
 		}
-		catch (InputMismatchException imex) {
-		}
-		}
+		}while(fallo = true);
+		
 	}
 
 	public static float numeroFloat () {
@@ -41,7 +44,7 @@ public class DoubleFloat02 {
 			catch (InputMismatchException imex) {
 				System.out.println("Error. Eso no es un dato de tipo float.");
 			}
-		return n; 
+		return n;
 	}
 	
 	public static double numeroDouble () {

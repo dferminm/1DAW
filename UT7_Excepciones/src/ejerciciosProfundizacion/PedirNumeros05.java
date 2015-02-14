@@ -30,6 +30,10 @@ public class PedirNumeros05 {
 		// y que controle el posible error que pudiera producirse si el usuario inserta letras. 
 		// El método visualizará un mensaje informando del error.
 		
+		
+		//Incompleto
+		
+		
 		int n = 0, masAlto = 0;
 		
 		try {
