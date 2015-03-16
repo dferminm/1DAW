@@ -18,6 +18,12 @@ public class Hora {
 		this.segundos = segundos;
 	}
 
+	@Override
+	public String toString() {
+		return "Hora [hora=" + hora + ", minutos=" + minutos + ", segundos="
+				+ segundos + "]";
+	}
+	
 	public String getHora() {
 		return this.hora + ":" + this.minutos + ":" + this.segundos;
 	}
@@ -29,9 +35,4 @@ public class Hora {
 		return this.hora + ":" + this.minutos + ":" + this.segundos;
 	}
 
-	@Override
-	public String toString() {
-		return "Hora [hora=" + hora + ", minutos=" + minutos + ", segundos="
-				+ segundos + "]";
-	}
 }
