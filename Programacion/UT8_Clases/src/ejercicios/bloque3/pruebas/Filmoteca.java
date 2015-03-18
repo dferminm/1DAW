@@ -1,7 +1,6 @@
-package ejercicios.bloque3.filmoteca;
+package ejercicios.bloque3.pruebas;
 
-import java.util.ArrayList;
-import ejercicios.bloque3.filmoteca.*;
+import ejercicios.bloque3.clases.Pelicula;
 
 public class Filmoteca {
 	
@@ -12,7 +11,7 @@ public class Filmoteca {
 	Crea un programa (clase Filmoteca) que permita: 
 	insertar, modificar, eliminar, buscar o visualizar una película.*/
 	
-	Pelicula pelicula = new Pelicula();
+	Pelicula peli = new Pelicula("titulo", "12/12/12", "digital", "actor1", "director1");
 	
 	
 }
