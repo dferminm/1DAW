@@ -23,6 +23,8 @@ public class PruebaHora {
 		
 		Hora miHora = new Hora(12, 45, 32);
 		
+		System.out.println(miHora);
+		
 		Hora unaHoraYCuarto = new Hora(1, 15, 0);
 		
 		System.out.println(miHora.suma(unaHoraYCuarto));

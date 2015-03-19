@@ -75,6 +75,24 @@ public class Hora {
 		acumular();
 		return this;
 	}
+	
+	public Hora tick(int segundos) {
+		this.segundos = this.segundos + segundos;
+		acumular();
+		return this;
+	}
+	
+	public Hora incrementarMinuto(int minutos) {
+		this.minutos = this.minutos + minutos;
+		acumular();
+		return this;
+	}
+	
+	public Hora incrementarHora(int horas) {
+		this.hora = this.hora + horas;
+		acumular();
+		return this;
+	}
 
 	public static void main(String[] args) {
 		Hora comienzo=new Hora(16,15,0);
