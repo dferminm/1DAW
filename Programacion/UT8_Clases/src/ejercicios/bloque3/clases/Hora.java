@@ -2,7 +2,7 @@ package ejercicios.bloque3.clases;
 
 public class Hora {
 
-	private int hora;
+	public int hora;
 	private int minutos;
 	private int segundos;
 
@@ -21,7 +21,7 @@ public class Hora {
 	public Hora(Hora hora) {
 		this(hora.hora,hora.getMinutos(),hora.getSegundos());
 	}
-
+	
 	public int getMinutos() {
 		return minutos;
 	}
